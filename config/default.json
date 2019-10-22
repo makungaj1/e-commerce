@@ -1,0 +1,4 @@
+{
+	"mongoURI": "mongodb://localhost/ecommerce",
+	"jwtPrivateKey": "12345"
+}
