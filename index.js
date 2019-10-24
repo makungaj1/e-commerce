@@ -7,7 +7,7 @@ require('./config/db')();
 app.use('/api/employees', require('./routes/employees'));
 app.use('/api/customers', require('./routes/customers'));
 app.use('/api/products', require('./routes/products'));
-app.use('/api/inventories', require('./routes/inentories'));
+app.use('/api/inventories', require('./routes/inventories'));
 app.use('/api/auth', require('./routes/auth'));
 
 // error handeling
